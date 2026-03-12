@@ -1,6 +1,6 @@
 # Tests are defined here
-from ukp_project_template import BaseClass
-from ukp_project_template.subpackage import SubPackageClass
+from semeval26_valence_arousal_from_text import BaseClass
+from semeval26_valence_arousal_from_text.subpackage import SubPackageClass
 
 def test_template():
     assert True
