@@ -63,11 +63,11 @@ The shared task includes:
 -   Data span seven two-week periods
 -   92% of users participated in only one period
 
-The dataset used in this work is subject to the SemEval shared task usage agreement and therefore cannot be published or redistributed in this repository. The data may only be used for research purposes and must be obtained from the official task [website](semeval26_valence_arousal_from_text).
+The dataset used in this work is subject to the SemEval shared task usage agreement and therefore cannot be published or redistributed in this repository. The data may only be used for research purposes and must be obtained from the official task [website](https://semeval2026task2.github.io/SemEval-2026-Task2/overview).
 
 ## Usage
 
-To use the repository, please see [semeval26_valence_arousal_from_text]() folder.
+To use the repository, please see [semeval26_valence_arousal_from_text](semeval26_valence_arousal_from_text) folder.
 
 # Contact:
 [UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
