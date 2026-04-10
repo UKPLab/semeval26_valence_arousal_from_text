@@ -1,13 +1,6 @@
 # UKP_Psycontrol at SemEval-2026 Task 2: Modeling Valence and Arousal Dynamics from Text
 
-This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
-
-<details>
-<summary>Abstract</summary>
-This paper presents our system developed for SemEval-2026 Task 2. The task requires modeling both current affect and short-term affective change in chronologically ordered user-generated texts. We explore three complementary approaches: (1) LLM prompting under user-aware and user-agnostic settings, (2) a pairwise Maximum Entropy (MaxEnt) model with Ising-style interactions for structured transition modeling, and (3) a lightweight neural regression model incorporating recent affective trajectories and trainable user embeddings. Our findings indicate that LLMs effectively capture static affective signals from text, whereas short-term affective variation in this dataset is more strongly explained by recent numeric state trajectories than by textual semantics. Our system ranked first among participating teams in both Subtask 1 and Subtask 2A based on the official evaluation metric.
-</details>
-
-## Getting Started
+>This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
 This paper presents our system developed for **SemEval-2026 Task 2**.
 The task requires modeling both current affect and short-term affective
@@ -25,6 +18,16 @@ Our findings indicate that LLMs effectively capture static affective
 signals from text, whereas short-term affective variation in this
 dataset is more strongly explained by recent numeric state trajectories
 than by textual semantics.
+
+<details>
+<summary>Abstract</summary>
+    
+>This paper presents our system developed for SemEval-2026 Task 2. 
+>The task requires modeling both current affect and short-term affective change in chronologically ordered user-generated texts. 
+>We explore three complementary approaches: (1) LLM prompting under user-aware and user-agnostic settings, (2) a pairwise Maximum Entropy (MaxEnt) model with Ising-style interactions for structured transition modeling, and (3) a lightweight neural regression model incorporating recent affective trajectories and trainable user embeddings. 
+>Our findings indicate that LLMs effectively capture static affective signals from text, whereas short-term affective variation in this dataset is more strongly explained by recent numeric state trajectories than by textual semantics. 
+>Our system ranked first among participating teams in both Subtask 1 and Subtask 2A based on the official evaluation metric.
+</details>
 
 ## SemEval-2026 Task 2 Description
 
