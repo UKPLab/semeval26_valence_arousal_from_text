@@ -1,45 +1,66 @@
 # UKP_Psycontrol at SemEval-2026 Task 2: Modeling Valence and Arousal Dynamics from Text
-[![Arxiv](https://img.shields.io/badge/Arxiv-YYMM.NNNNN-red?style=flat-square&logo=arxiv&logoColor=white)](https://put-here-your-paper.com)
-[![License](https://img.shields.io/github/license/UKPLab/semeval26_valence_arousal_from_text)](https://opensource.org/licenses/Apache-2.0)
-[![Python Versions](https://img.shields.io/badge/Python-3.9-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![CI](https://github.com/UKPLab/semeval26_valence_arousal_from_text/actions/workflows/main.yml/badge.svg)](https://github.com/UKPLab/semeval26_valence_arousal_from_text/actions/workflows/main.yml)
 
-This is the official template for new Python projects at UKP Lab. It was adapted for the needs of UKP Lab from the excellent [python-project-template](https://github.com/rochacbruno/python-project-template/) by [rochacbruno](https://github.com/rochacbruno).
+This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
-It should help you start your project and give you continuous status updates on the development through [GitHub Actions](https://docs.github.com/en/actions).
-
-> **Abstract:** The study of natural language processing (NLP) has gained increasing importance in recent years, with applications ranging from machine translation to sentiment analysis. Properly managing Python projects in this domain is of paramount importance to ensure reproducibility and facilitate collaboration. The template provides a structured starting point for projects and offers continuous status updates on development through GitHub Actions. Key features include a basic setup.py file for installation, packaging, and distribution, documentation structure using mkdocs, testing structure using pytest, code linting with pylint, and entry points for executing the program with basic CLI argument parsing. Additionally, the template incorporates continuous integration using GitHub Actions with jobs to check, lint, and test the project, ensuring robustness and reliability throughout the development process.
-
-Contact person: [Federico Tiblias](mailto:federico.tiblias@tu-darmstadt.de) 
-
-[UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/
-)
-
-Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
-
+<details>
+<summary>Abstract</summary>
+This paper presents our system developed for SemEval-2026 Task 2. The task requires modeling both current affect and short-term affective change in chronologically ordered user-generated texts. We explore three complementary approaches: (1) LLM prompting under user-aware and user-agnostic settings, (2) a pairwise Maximum Entropy (MaxEnt) model with Ising-style interactions for structured transition modeling, and (3) a lightweight neural regression model incorporating recent affective trajectories and trainable user embeddings. Our findings indicate that LLMs effectively capture static affective signals from text, whereas short-term affective variation in this dataset is more strongly explained by recent numeric state trajectories than by textual semantics. Our system ranked first among participating teams in both Subtask 1 and Subtask 2A based on the official evaluation metric.
+</details>
 
 ## Getting Started
 
-> **DO NOT CLONE OR FORK**
+This paper presents our system developed for **SemEval-2026 Task 2**.
+The task requires modeling both current affect and short-term affective
+change in chronologically ordered user-generated texts.
 
-If you want to set up this template:
+We explore three complementary approaches:
 
-1. Request a repository on UKP Lab's GitHub by following the standard procedure on the wiki. It will install the template directly. Alternatively, set it up in your personal GitHub account by clicking **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**.
-2. Wait until the first run of CI finishes. Github Actions will commit to your new repo with a "✅ Ready to clone and code" message.
-3. Delete optional files: 
-    - If you don't need automatic documentation generation, you can delete folder `docs`, file `.github\workflows\docs.yml` and `mkdocs.yml`
-    - If you don't want automatic testing, you can delete folder `tests` and file `.github\workflows\tests.yml`
-    - If you do not wish to have a project page, delete folder `static` and files `.nojekyll`, `index.html`
-4. Prepare a virtual environment:
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install .
-pip install -r requirements-dev.txt # Only needed for development
-```
-5. Adapt anything else (for example this file) to your project. 
+1.  **LLM prompting** under user-aware and user-agnostic settings\
+2.  A **pairwise Maximum Entropy (MaxEnt) model** with Ising-style
+    interactions for structured transition modeling\
+3.  A **lightweight neural regression model** incorporating recent
+    affective trajectories and trainable user embeddings
 
-6. Read the file [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  for more information about development.
+Our findings indicate that LLMs effectively capture static affective
+signals from text, whereas short-term affective variation in this
+dataset is more strongly explained by recent numeric state trajectories
+than by textual semantics.
+
+## SemEval-2026 Task 2 Description
+
+**Task Name:** Predicting Variation in Emotional Valence and Arousal
+over Time from Ecological Essays
+
+The task focuses on modeling subjectively experienced emotion from
+longitudinal, self-reported data.
+
+The dataset contains chronologically ordered essays and feeling-word
+lists written by U.S. service-industry workers over several years. Each
+entry is paired with self-assessed:
+
+-   **Valence (0-4)**
+-   **Arousal (0-2)**
+
+The shared task includes:
+
+-   **Subtask 1:** Longitudinal Affect Assessment
+    -   Predict valence and arousal per text
+    -   Evaluated using Pearson correlation (r) and MAE
+    -   Between-user, within-user, and composite evaluation
+-   **Subtask 2A:** Forecasting Future Variation
+    -   Predict next-step changes in valence and arousal
+    -   Evaluated with user-level Pearson correlation and MAE
+ 
+## Data Overview
+
+-   2,764 entries from 137 users
+-   Average 20 entries per user (median: 14)
+-   52% free-form essays
+-   48% feeling-word lists
+-   Data span seven two-week periods
+-   92% of users participated in only one period
+
+The dataset used in this work is subject to the SemEval shared task usage agreement and therefore cannot be published or redistributed in this repository. The data may only be used for research purposes and must be obtained from the official task [website](https://semeval2026task2.github.io/SemEval-2026-Task2/overview).
 
 ## Usage
 
@@ -107,6 +128,8 @@ Please use the following citation:
 }
 ```
 
-## Disclaimer
+# Contact:
+[UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
 
-> This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
+Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
+
