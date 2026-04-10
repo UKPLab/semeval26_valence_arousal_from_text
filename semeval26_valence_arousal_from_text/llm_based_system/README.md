@@ -1,4 +1,4 @@
-# LLM_based_system
+# LLM-based System
 
 ## Folder structure
 
