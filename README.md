@@ -63,73 +63,11 @@ The shared task includes:
 -   Data span seven two-week periods
 -   92% of users participated in only one period
 
-The dataset used in this work is subject to the SemEval shared task usage agreement and therefore cannot be published or redistributed in this repository. The data may only be used for research purposes and must be obtained from the official task [website](https://semeval2026task2.github.io/SemEval-2026-Task2/overview).
+The dataset used in this work is subject to the SemEval shared task usage agreement and therefore cannot be published or redistributed in this repository. The data may only be used for research purposes and must be obtained from the official task [website](semeval26_valence_arousal_from_text/semeval26_valence_arousal_from_text).
 
 ## Usage
 
-### Using the classes
-
-To import classes/methods of `semeval26_valence_arousal_from_text` from inside the package itself you can use relative imports: 
-
-```py
-from .base import BaseClass # Notice how I omit the package name
-
-BaseClass().something()
-```
-
-To import classes/methods from outside the package (e.g. when you want to use the package in some other project) you can instead refer to the package name:
-
-```py
-from semeval26_valence_arousal_from_text import BaseClass # Notice how I omit the file name
-from semeval26_valence_arousal_from_text.subpackage import SubPackageClass # Here it's necessary because it's a subpackage
-
-BaseClass().something()
-SubPackageClass().something()
-```
-
-### Using scripts
-
-This is how you can use `semeval26_valence_arousal_from_text` from command line:
-
-```bash
-$ python -m semeval26_valence_arousal_from_text
-```
-
-### Expected results
-
-After running the experiments, you should expect the following results:
-
-(Feel free to describe your expected results here...)
-
-### Parameter description
-
-* `x, --xxxx`: This parameter does something nice
-
-* ...
-
-* `z, --zzzz`: This parameter does something even nicer
-
-## Development
-
-Read the FAQs in [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md) to learn more about how this template works and where you should put your classes & methods. Make sure you've correctly installed `requirements-dev.txt` dependencies
-
-## Cite
-
-Please use the following citation:
-
-```
-@InProceedings{smith:20xx:CONFERENCE_TITLE,
-  author    = {Smith, John},
-  title     = {My Paper Title},
-  booktitle = {Proceedings of the 20XX Conference on XXXX},
-  month     = mmm,
-  year      = {20xx},
-  address   = {Gotham City, USA},
-  publisher = {Association for XXX},
-  pages     = {XXXX--XXXX},
-  url       = {http://xxxx.xxx}
-}
-```
+To use the repository, please see [semeval26_valence_arousal_from_text]() folder.
 
 # Contact:
 [UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
