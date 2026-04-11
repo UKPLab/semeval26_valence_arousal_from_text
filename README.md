@@ -1,4 +1,5 @@
-# UKP_Psycontrol at SemEval-2026 Task 2: Modeling Valence and Arousal Dynamics from Text
+# UKP_Psycontrol at SemEval-2026 Task 2: 
+# Modeling Valence and Arousal Dynamics from Text
 
 >This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
@@ -69,8 +70,11 @@ The dataset used in this work is subject to the SemEval shared task usage agreem
 
 To use the repository, please see [semeval26_valence_arousal_from_text](semeval26_valence_arousal_from_text) folder.
 
-## Contact:
+## Contact
 [UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
 
 Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
 
+## License
+
+This repository is licensed under the Apache License, Version 2.0. See [LICENSE](LICENCE) for the full license text.
