@@ -1,6 +1,4 @@
-# README
-
-## Overview
+# Pairwise Maximum Entropy (MaxEnt) model 
 
 These notebooks implement and run Maximum Entropy (MaxEnt) models for
 two different subtasks:
