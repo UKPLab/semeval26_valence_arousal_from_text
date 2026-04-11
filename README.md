@@ -77,4 +77,4 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 ## License
 
-This repository is licensed under the Apache License, Version 2.0. See [LICENSE](LICENCE) for the full license text.
+This repository is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
