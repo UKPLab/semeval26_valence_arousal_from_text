@@ -36,8 +36,6 @@ The CLI supports the following experiment modes:
 
 ## Basic usage
 
-Run commands from the repository root.
-
 ```bash
 python main.py --use-case user-agnostic
 python main.py --use-case user-aware
