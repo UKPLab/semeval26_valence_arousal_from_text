@@ -1,6 +1,8 @@
 # LLM-based System
 
-## Folder structure
+These system implements solution for Subtask 1.
+
+## Structure
 
 - `main.py`: CLI entry point for all supported runs
 - `configs.py`: shared paths, label mappings, and prompt templates
