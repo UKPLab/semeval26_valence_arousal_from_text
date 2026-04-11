@@ -39,32 +39,32 @@ The CLI supports the following experiment modes:
 Run commands from the repository root.
 
 ```bash
-.\.venv\Scripts\python.exe main.py --use-case user-agnostic
-.\.venv\Scripts\python.exe main.py --use-case user-aware
-.\.venv\Scripts\python.exe main.py --use-case user-agnostic-split
-.\.venv\Scripts\python.exe main.py --use-case user-aware-split
-.\.venv\Scripts\python.exe main.py --use-case user-agnostic-dynamic
-.\.venv\Scripts\python.exe main.py --use-case user-aware-dynamic
+python main.py --use-case user-agnostic
+python main.py --use-case user-aware
+python main.py --use-case user-agnostic-split
+python main.py --use-case user-aware-split
+python main.py --use-case user-agnostic-dynamic
+python main.py --use-case user-aware-dynamic
 ```
 
 Numerical user-aware prediction:
 
 ```bash
-.\.venv\Scripts\python.exe main.py --use-case user-aware-numeric --prompt-type valence
-.\.venv\Scripts\python.exe main.py --use-case user-aware-numeric --prompt-type arousal
-.\.venv\Scripts\python.exe main.py --use-case user-aware-numeric --prompt-type val_aro
+python main.py --use-case user-aware-numeric --prompt-type valence
+python main.py --use-case user-aware-numeric --prompt-type arousal
+python main.py --use-case user-aware-numeric --prompt-type val_aro
 ```
 
 Using OpenAI instead of Ollama:
 
 ```bash
-.\.venv\Scripts\python.exe main.py --use-case user-aware --provider openai --model gpt-5
+python main.py --use-case user-aware --provider openai --model gpt-5
 ```
 
 Changing output location:
 
 ```bash
-.\.venv\Scripts\python.exe main.py --use-case user-agnostic --output outputs/custom_run.json
+python main.py --use-case user-agnostic --output outputs/custom_run.json
 ```
 
 ## Configuration
@@ -95,7 +95,7 @@ This package assumes the same local data layout as the surrounding repository:
 - test CSV for inference-only runs
 - enriched training CSV with an `emotion` column for user-aware and dynamic experiments
 
-The user-aware and dynamic flows depend on `train_data_emotion.csv`, because they need labeled history examples.
+The user-aware and dynamic flows depend on data enriched with emotion labels, because they need labeled history examples.
 
 ## Output format
 
