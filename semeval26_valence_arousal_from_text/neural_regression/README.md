@@ -1,5 +1,7 @@
 # Neural Regression
 
+These system implements solution for Subtask 2A.
+
 ##  Structure
 
 - `main.py`: core model code plus CLI for training and inference
