@@ -6,9 +6,6 @@ two different subtasks:
 -   `run_subtask1_MaxEnt.ipynb`
 -   `run_subtask2a_MaxEnt.ipynb`
 
-
-------------------------------------------------------------------------
-
 ## Project Structure
 
     .
@@ -17,9 +14,7 @@ two different subtasks:
     ├── data/        # input datasets
     ├── models/      
     └── results/
-
-------------------------------------------------------------------------
-
+    
 ## How to Run
 
 ### Option 1: Run with Jupyter
@@ -32,8 +27,6 @@ Open both notebooks and click:
 
 Kernel → Restart & Run All
 
-------------------------------------------------------------------------
-
 ### Option 2: Run from Command Line
 
 ``` bash
@@ -41,13 +34,9 @@ jupyter nbconvert --to notebook --execute run_subtask1_MaxEnt.ipynb
 jupyter nbconvert --to notebook --execute run_subtask2a_MaxEnt.ipynb
 ```
 
-------------------------------------------------------------------------
-
 ## Notes
 
 -   Ensure all dataset paths inside notebooks are correct.
-
-------------------------------------------------------------------------
 
 ## Troubleshooting
 
