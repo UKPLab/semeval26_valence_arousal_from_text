@@ -71,6 +71,7 @@ The dataset used in this work is subject to the SemEval shared task usage agreem
 To use the repository, please see [semeval26_valence_arousal_from_text](semeval26_valence_arousal_from_text) folder.
 
 ## Contact
+Contact person: [Darya Hryhoryeva](mailto:darya.hryhoryeva@tu-darmstdadt.de)
 [UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
 
 Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
