@@ -6,11 +6,11 @@ Each subdirectory corresponds to one modeling approach described in the paper.  
 
 ## Available systems
 
-- [llm_based_system](llm_based_system) > LLM prompting framework used for **Subtask 1**.
+- [llm_based_system](llm_based_system)    > LLM prompting framework used for Subtask 1
 
-- [maxent](maxent) > Pairwise Maximum Entropy (MaxEnt) model with structured transition modeling, used for **Subtasks 1 and 2A**.
+- [maxent](maxent)                        > Maximum Entropy model used for Subtasks 1 and 2A
 
-- [neural_regression](neural_regression)  > Lightweight neural regression model incorporating affective trajectories, used for **Subtask 2A**.
+- [neural_regression](neural_regression)  > Neural regression model used for Subtask 2A
 
 
 ## Getting started
