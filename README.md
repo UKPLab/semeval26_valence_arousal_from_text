@@ -1,24 +1,15 @@
-# UKP_Psycontrol at SemEval-2026 Task 2: 
-# Modeling Valence and Arousal Dynamics from Text
-
->This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
+# UKP_Psycontrol at SemEval-2026 Task 2: Modeling Valence and Arousal Dynamics from Text
 
 This paper presents our system developed for **SemEval-2026 Task 2**.
-The task requires modeling both current affect and short-term affective
-change in chronologically ordered user-generated texts.
+The task requires modeling both current affect and short-term affective change in chronologically ordered user-generated texts.
 
 We explore three complementary approaches:
 
 1.  **LLM prompting** under user-aware and user-agnostic settings
-2.  A **pairwise Maximum Entropy (MaxEnt) model** with Ising-style
-    interactions for structured transition modeling
-3.  A **lightweight neural regression model** incorporating recent
-    affective trajectories and trainable user embeddings
+2.  A **pairwise Maximum Entropy (MaxEnt) model** with Ising-style interactions for structured transition modeling
+3.  A **lightweight neural regression model** incorporating recent affective trajectories and trainable user embeddings
 
-Our findings indicate that LLMs effectively capture static affective
-signals from text, whereas short-term affective variation in this
-dataset is more strongly explained by recent numeric state trajectories
-than by textual semantics.
+Our findings indicate that LLMs effectively capture static affective signals from text, whereas short-term affective variation in this dataset is more strongly explained by recent numeric state trajectories than by textual semantics.
 
 <details>
 <summary>Abstract</summary>
@@ -29,6 +20,17 @@ than by textual semantics.
 >Our findings indicate that LLMs effectively capture static affective signals from text, whereas short-term affective variation in this dataset is more strongly explained by recent numeric state trajectories than by textual semantics. 
 >Our system ranked first among participating teams in both Subtask 1 and Subtask 2A based on the official evaluation metric.
 </details>
+
+## Usage
+
+Detailed usage instructions are provided in the [semeval26_valence_arousal_from_text](semeval26_valence_arousal_from_text) directory.
+Each subfolder contains documentation describing how to run the corresponding system:
+```text
+├── semeval26_valence_arousal_from_text   # main project directory
+│   ├── llm_based_system                  # LLM-based solution for Subtask 1
+│   ├── maxent                            # Maximum Entropy model for Subtasks 1 and 2A
+│   └── neural_regression                 # Neural regression model for Subtask 2A
+```
 
 ## SemEval-2026 Task 2 Description
 
@@ -66,16 +68,15 @@ The shared task includes:
 
 The dataset used in this work is subject to the SemEval shared task usage agreement and therefore cannot be published or redistributed in this repository. The data may only be used for research purposes and must be obtained from the official task [website](https://semeval2026task2.github.io/SemEval-2026-Task2/overview).
 
-## Usage
-
-To use the repository, please see [semeval26_valence_arousal_from_text](semeval26_valence_arousal_from_text) folder.
-
 ## Contact
-Contact person: [Darya Hryhoryeva](mailto:darya.hryhoryeva@tu-darmstdadt.de)
-[UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
+[Darya Hryhoryeva](mailto:darya.hryhoryeva@tu-darmstdadt.de) | [UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
 
 Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
 
 ## License
 
 This repository is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
+
+## Disclaimer
+
+>This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
