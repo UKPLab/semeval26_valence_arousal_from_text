@@ -9,9 +9,9 @@ change in chronologically ordered user-generated texts.
 
 We explore three complementary approaches:
 
-1.  **LLM prompting** under user-aware and user-agnostic settings\
+1.  **LLM prompting** under user-aware and user-agnostic settings
 2.  A **pairwise Maximum Entropy (MaxEnt) model** with Ising-style
-    interactions for structured transition modeling\
+    interactions for structured transition modeling
 3.  A **lightweight neural regression model** incorporating recent
     affective trajectories and trainable user embeddings
 
