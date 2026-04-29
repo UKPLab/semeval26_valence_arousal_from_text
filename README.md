@@ -74,7 +74,7 @@ The dataset used in this work is subject to the SemEval shared task usage agreem
 Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
 
 ## Citation
-If you found our data or code helpful, please cite our paper:
+If you find this work relevant to your research or use this code in your work, please cite our paper:
 ```text
 @misc{hryhoryeva2026ukppsycontrolsemeval2026task2,
       title={UKP_Psycontrol at SemEval-2026 Task 2: Modeling Valence and Arousal Dynamics from Text}, 
