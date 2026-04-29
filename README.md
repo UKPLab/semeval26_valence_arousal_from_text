@@ -73,6 +73,20 @@ The dataset used in this work is subject to the SemEval shared task usage agreem
 
 Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
 
+## Citation
+If you found our data or code helpful, please cite our paper:
+```text
+@misc{hryhoryeva2026ukppsycontrolsemeval2026task2,
+      title={UKP_Psycontrol at SemEval-2026 Task 2: Modeling Valence and Arousal Dynamics from Text}, 
+      author={Darya Hryhoryeva and Amaia Zurinaga and Hamidreza Jamalabadi and Iryna Gurevych},
+      year={2026},
+      eprint={2604.21534},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.21534}, 
+}
+```
+
 ## License
 
 This repository is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
